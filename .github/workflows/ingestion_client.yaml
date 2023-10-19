@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Setup .NET Core
+      - name: 安裝 Setup .NET Core
         uses: actions/setup-dotnet@v1
         with:
           dotnet-version: '6.0.x'
